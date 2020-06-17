@@ -7,6 +7,57 @@ A retail company “ABC Private Limited” wants to understand the customer purc
 
 Now, they want to build a model to predict the purchase amount of customer against various products which will help them to create personalized offer for customers against different products.
 
-# Results
+* Data
+* Variable	Definition
+* User_ID	User ID
+* Product_ID	Product ID
+* Gender	Sex of User
+* Age	Age in bins
+* Occupation	Occupation (Masked)
+* City_Category	Category of the City (A,B,C)
+* Stay_In_Current_City_Years	Number of years stay in current city
+* Marital_Status	Marital Status
+* Product_Category_1	Product Category (Masked)
+* Product_Category_2	Product may belongs to other category also (Masked)
+* Product_Category_3	Product may belongs to other category also (Masked)
+* Purchase	Purchase Amount (Target Variable)* Data
+* Variable	Definition
+* User_ID	User ID
+* Product_ID	Product ID
+* Gender	Sex of User
+* Age	Age in bins
+* Occupation	Occupation (Masked)
+* City_Category	Category of the City (A,B,C)
+* Stay_In_Current_City_Years	Number of years stay in current city
+* Marital_Status	Marital Status
+* Product_Category_1	Product Category (Masked)
+* Product_Category_2	Product may belongs to other category also (Masked)
+* Product_Category_3	Product may belongs to other category also (Masked)
+* Purchase	Purchase Amount (Target Variable)
 
+# Results
+### Visualizing Age Vs Purchased
+![](Images/download.png)
+
+Purchasing of goods of each range of age are almost equal. We can conclude that the percentage of purchasing goods of men over women is higher.
+
+### Visualizing Occupation Vs Purchased.
+
+![](Images/download1.png)
+
+All the occupation contributes almost same in purchasing rates and it won't affect alot that how many years you live in a city.
+
+### Visualizing Product_category1 Vs Purchased.
+
+![](Images/download%20(1).png)
+
+### Visualizing Product_category2 Vs Purchased.
+
+![](Images/download%20(2).png)
+
+### Visualizing Product_category3 Vs Purchased.
+
+![](Images/download%20(3).png)
+
+One thing we can clearly conclude is that there is no such variation in the percentage of the purchasing whether the person is married or not. product category3 is much more purchased by people than product category2 and product category1
 
